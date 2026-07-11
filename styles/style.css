@@ -270,9 +270,24 @@ padding-bottom: 80px;
 
 footer{
 background-color: #0D1B2A;    
-padding: 52px 220px 69px;
+padding: 42px 220px;
 }
 .footer-elements{
+
+}
+.brands-socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: solid 1px lightgray;
+}
+.socials > a > img{
+    width: 30px;
+    height: 30px;
+}
+.copyright-warning{
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
