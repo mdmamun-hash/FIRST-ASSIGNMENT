@@ -34,5 +34,75 @@ padding: 0 116px 26px;
     padding: 12px 41.5px;
     border-radius: 10px;
     background-color: blue;
+    border: 0;
 }
 
+
+
+.banner{
+    height: 973px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#00000099, #00000000), url("../assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-element{
+display: flex;
+flex-direction: column;
+gap: 300px;
+justify-content: center;
+align-items: center;
+}
+
+.banner-title{
+    color: #FFFFFF;
+    font-size: 80px;
+    font-family: Inter;
+    font-weight: bold;
+}
+.banner-description{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: Inter;
+    text-align: center;
+}
+ #banner-btn{
+font-size: 24px;
+} 
+
+
+
+.meet-speakers{
+    padding: 100px 140px 80px;
+}
+.meet-speakers-title{
+     font-size: 56px;
+     font-weight: bold;
+     font-family: Inter;
+     text-align: center;
+     margin-bottom: 35px;
+     
+}
+
+.meet-speakers-cards{   
+display: grid;
+grid-template-columns: repeat(2,1fr);
+padding:0 120px;
+place-items: center;
+row-gap: 40px;
+
+}
+.meet-speakers-card{
+    border:solid 2px rgb(185, 183, 183);
+    border-radius: 12px;
+    width: 642px;
+}
+.card-text{
+    padding-left: 25px;
+}
+.card-img{
+    border-radius: 12px;
+}
