@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+    height: auto;
+}
 *{
     margin: 0;
     padding: 0;
@@ -43,6 +47,10 @@ padding: 24px 116px 26px;
     border-radius: 10px;
     background-color: blue;
     border: 0;
+}
+.btn > a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .banner{
@@ -184,14 +192,22 @@ padding-bottom: 80px;
 }
 
 #btn-white{
-    color: blue;
     background-color:#FFFFFF;
-    border: solid 1px blue;
+    border: solid 2px rgb(0, 183, 255);
+}
+#btn-white > a{
+    color: rgb(0, 183, 255);
+}
+#get-pro-btn > a{
+    color: #FFFFFF;
 }
 #btn-gray{
     color: gray;
     background-color: #FFFFFF;
-    border: solid 1px gray;
+    border: solid 2px gray;
+}
+#btn-gray > a{
+    color: gray;
 }
 
 .creative-section{
