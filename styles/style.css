@@ -176,6 +176,12 @@ padding-bottom: 80px;
     font-size: 13px;
     font-family: Inter;
 }
+#pro-blue{
+    color: rgb(0, 183, 255);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Inter;
+}
 .secure-spot-card-desc{
     color:#333333 ;
     font-size: 14px;
@@ -271,6 +277,9 @@ padding: 22px 220px;
     margin-bottom: 12px;
     padding-bottom: 6px;
     border-bottom: solid 1px lightgray;
+}
+.footers-brand-name{
+    color: #FFFFFF;
 }
 .socials > a > img{
     width: 30px;
