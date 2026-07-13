@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
+                                                          /* HEADER SECTION  */
 .navbar{
 display: flex;
 justify-content: space-between;
@@ -52,7 +53,7 @@ padding: 24px 116px 26px;
     text-decoration: none;
     color: #FFFFFF;
 }
-
+                                                  /* BANNER  */
 .banner{
     height: 973px;
     display: flex;
@@ -134,8 +135,7 @@ row-gap: 40px;
     font-size: 16px;
     font-family: Inter;
 }
-
-
+                                         /* SECURE YOUR SPOT SECTION  */
 .secure-spot{
 padding-bottom: 80px;
 }
@@ -226,7 +226,7 @@ padding-bottom: 80px;
 #btn-gray > a{
     color: gray;
 }
-
+                                           /* CREATIVE SECTION (TOOK HELP FROM AI) */
 .creative-section{
     display: flex;
     justify-content: center;
@@ -272,8 +272,7 @@ padding-bottom: 80px;
 color: #FFFFFF;
 font-size: 18px;
 }
-
-
+                                               /* FOOTER SECTION  */
 footer{
 background-color: #0D1B2A;    
 padding: 22px 220px;
@@ -307,4 +306,3 @@ padding: 22px 220px;
     align-items: center;
     gap: 12px;
 }
-
