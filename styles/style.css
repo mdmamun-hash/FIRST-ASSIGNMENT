@@ -71,7 +71,6 @@ gap: 300px;
 justify-content: center;
 align-items: center;
 }
-
 .banner-title{
     color: #FFFFFF;
     font-size: 80px;
@@ -207,7 +206,6 @@ padding-bottom: 80px;
     font-size: 14px;
     font-family: Inter;
 }
-
 #btn-white{
     background-color:#FFFFFF;
     border: solid 2px rgb(0, 183, 255);
@@ -278,7 +276,7 @@ background-color: #0D1B2A;
 padding: 22px 220px;
 }
 .footer-elements{
-
+    
 }
 .brands-socials{
     display: flex;
